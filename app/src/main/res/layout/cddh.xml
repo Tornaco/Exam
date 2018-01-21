@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="0dp"></LinearLayout>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="#fff2f2f2">-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="UNKNOWN_DATA_0x19a66621"-->
+        <!--android:layout_height="UNKNOWN_DATA_0x990a321"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginRight="24dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:background="@drawable/logo_dark" />-->
+
+    <!--<TextView-->
+        <!--android:id="@id/tvOnline"-->
+        <!--android:layout_width="UNKNOWN_DATA_0x34c28f21"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="23dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:drawableLeft="@drawable/people_number"-->
+        <!--android:drawablePadding="4dp"-->
+        <!--android:text=""-->
+        <!--android:textColor="#ffcecddb"-->
+        <!--android:textSize="13.81dp" />-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@id/layoutCountDown"-->
+        <!--android:layout_width="UNKNOWN_DATA_0x6401"-->
+        <!--android:layout_height="UNKNOWN_DATA_0x6401"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_margin="0dp"-->
+        <!--android:visibility="visible">-->
+
+        <!--<com.liulishuo.magicprogresswidget.MagicProgressCircle-->
+            <!--app:id="@id/progressCircle"-->
+            <!--app:layout_centerInParent="true"-->
+            <!--app:layout_height="UNKNOWN_DATA_0x3801"-->
+            <!--app:layout_width="UNKNOWN_DATA_0x3801"-->
+            <!--app:mpc_default_color="@color/lightgray"-->
+            <!--app:mpc_end_color="@color/yellow"-->
+            <!--app:mpc_percent="0.0"-->
+            <!--app:mpc_start_color="@color/yellow"-->
+            <!--app:mpc_stroke_width="4dp" />-->
+
+        <!--<com.chongdingdahui.app.widget.AnimTextView-->
+            <!--app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"-->
+            <!--app:id="@id/tvNumber"-->
+            <!--app:layout_centerInParent="true"-->
+            <!--app:layout_height="wrap_content"-->
+            <!--app:layout_width="wrap_content"-->
+            <!--app:paddingBottom="1.2dp"-->
+            <!--app:paddingRight="0.7dp"-->
+            <!--app:text="0"-->
+            <!--app:textColor="@color/purple"-->
+            <!--app:textSize="28sp"-->
+            <!--app:textStyle="bold"-->
+            <!--app:visibility="gone" />-->
+
+        <!--<ImageView-->
+            <!--app:id="@id/ivCircle"-->
+            <!--app:layout_centerInParent="true"-->
+            <!--app:layout_height="UNKNOWN_DATA_0x1801"-->
+            <!--app:layout_width="UNKNOWN_DATA_0x1801"-->
+            <!--app:src="@drawable/voice" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<TextView-->
+        <!--app:id="@id/tvMessage"-->
+        <!--app:layout_centerHorizontal="true"-->
+        <!--app:layout_height="wrap_content"-->
+        <!--app:layout_marginTop="100dp"-->
+        <!--app:layout_width="UNKNOWN_DATA_0x93d811"-->
+        <!--app:lineSpacingMultiplier="1.3"-->
+        <!--app:maxLines="5"-->
+        <!--app:text=""-->
+        <!--app:textColor="@color/darkgray"-->
+        <!--app:textSize="20dp" />-->
+
+    <!--<LinearLayout-->
+        <!--app:layout_below="@id/tvMessage"-->
+        <!--app:layout_height="wrap_content"-->
+        <!--app:layout_marginTop="8dp"-->
+        <!--app:layout_width="match_parent"-->
+        <!--app:orientation="vertical"-->
+        <!--app:padding="20dp">-->
+
+        <!--<com.chongdingdahui.app.widget.RatioButton-->
+            <!--app:id="@id/answer0"-->
+            <!--app:layout_height="UNKNOWN_DATA_0x2f01"-->
+            <!--app:layout_marginTop="7dp"-->
+            <!--app:layout_width="match_parent"-->
+            <!--app:progress_btn_background_color="@color/yellow"-->
+            <!--app:progress_btn_background_second_color="@color/white"-->
+            <!--app:progress_btn_ball_style="1"-->
+            <!--app:progress_btn_border_width="1.7dp"-->
+            <!--app:progress_btn_radius="40dp"-->
+            <!--app:progress_btn_text_color="@color/blue"-->
+            <!--app:progress_btn_text_cover_color="@color/blue" />-->
+
+        <!--<com.chongdingdahui.app.widget.RatioButton-->
+            <!--app:id="@id/answer1"-->
+            <!--app:layout_height="UNKNOWN_DATA_0x2f01"-->
+            <!--app:layout_marginTop="7dp"-->
+            <!--app:layout_width="match_parent"-->
+            <!--app:progress_btn_background_color="@color/yellow"-->
+            <!--app:progress_btn_background_second_color="@color/white"-->
+            <!--app:progress_btn_ball_style="1"-->
+            <!--app:progress_btn_border_width="1.7dp"-->
+            <!--app:progress_btn_radius="40dp"-->
+            <!--app:progress_btn_text_color="@color/blue"-->
+            <!--app:progress_btn_text_cover_color="@color/blue" />-->
+
+        <!--<com.chongdingdahui.app.widget.RatioButton-->
+            <!--app:id="@id/answer2"-->
+            <!--app:layout_height="UNKNOWN_DATA_0x2f01"-->
+            <!--app:layout_marginTop="7dp"-->
+            <!--app:layout_width="match_parent"-->
+            <!--app:progress_btn_background_color="@color/yellow"-->
+            <!--app:progress_btn_background_second_color="@color/white"-->
+            <!--app:progress_btn_ball_style="1"-->
+            <!--app:progress_btn_border_width="1.7dp"-->
+            <!--app:progress_btn_radius="40dp"-->
+            <!--app:progress_btn_text_color="@color/blue"-->
+            <!--app:progress_btn_text_cover_color="@color/blue" />-->
+    <!--</LinearLayout>-->
+<!--</RelativeLayout>-->

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exam</string>
+    <string name="connect">链接</string>
+    <string name="send">发送</string>
+    <string name="input_hint">输入消息</string>
+    <string name="address_hint">192.168.1.111:9999</string>
+    <string name="acc">XXXXXXXXXX</string>
+    <string name="acc_description">XSS</string>
+</resources>
